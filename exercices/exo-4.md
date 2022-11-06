@@ -1,3 +1,4 @@
+
 # Exercice 4 - Compréhension du code et des types
 
 Ouvrir le fichier `src/Service/Common.php` puis analyser le code.

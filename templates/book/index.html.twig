@@ -1,4 +1,8 @@
 {% extends 'base.html.twig' %}
 {% block body %}
-{{result}} 
+{% for book in books%}
+    <h2>{{book.title}}</h2>
+    <p>{{book.resume}}</p>
+    <strong>Written by {{book.author.firstname}} {{book.author.lastname}}</strong>
+{%endfor%}
 {% endblock %}
